@@ -20,7 +20,7 @@ RUN apt-get update && apt-get install -y \
         libssl1.0 \
         libzmq5 \
         libgmp10 \
-        libqt5xml5 libqt5widgets5 
+        libqt5xml5 libqt5widgets5 \
         python3 \
         && rm -rf /var/lib/apt/lists/*
 
