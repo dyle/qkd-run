@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y \
         libboost-filesystem1.55.0 libboost-system1.55.0 libboost-program-options1.55.0 \
         libssl1.0.0 \
         libdbus-1-3 \
+        dbus-x11 \
         libzmq3 \
         libqt5dbus5 libqt5network5 libqt5widgets5 \
         libqt5xml5 \
