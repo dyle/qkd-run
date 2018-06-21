@@ -28,7 +28,8 @@ RUN apt-get update && apt-get install -y \
 
 ENV DISPLAY :0
 
-RUN locale-gen --no-purge en_US.UTF-8
+RUN sed -i 's/^# en_US.UTF-8/en_US.UTF-8/' /etc/locale.gen
+RUN locale-gen
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
