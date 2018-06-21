@@ -19,7 +19,7 @@ RUN apt-get update && apt-get install -y \
         libssl1.1 \
         libdbus-1-3 \
         dbus-x11 \
-        qtchooser qdbus-qt5 \
+        qt5-default qtchooser qdbus-qt5 \
         libzmq5 \
         libgmp10 \
         libqt5dbus5 libqt5network5 libqt5widgets5 \
