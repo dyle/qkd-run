@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y \
         locales \
         libboost-filesystem1.65.1 libboost-system1.65.1 libboost-program-options1.65.1 \
         dbus-x11 \
+        qtchooser \
         libqt5core5a libqt5dbus5 libqt5network5 \
         libzmq5 \
         libqt5xml5 libqt5widgets5 \
