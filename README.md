@@ -1,9 +1,9 @@
 # qkd-run
 
-## AIT QKD R10 run environment based on debian:jessie
+## AIT QKD R10 run environment based on ubuntu:cosmic
 
 This prepares a docker build environment to setup all what is needed for an AIT QKD R10 compilation
-on Debian jessie (8.0).
+on Ubuntu cosmic (18.10).
 
 
 ---  
