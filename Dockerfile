@@ -6,7 +6,7 @@
 # http://www.ait.ac.at, <office@ait.ac.at>
 # ------------------------------------------------------------
 
-FROM ubuntu:cosmic
+FROM ubuntu:dingo
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
