@@ -2,11 +2,11 @@
 # This file is part of the AIT QKD R10 suite.
 #
 # The 'LICENCE.txt' file in the project root holds the software license.
-# Copyright (C) 2012-2018 AIT Austrian Institute of Technology
+# Copyright (C) 2012-2019 AIT Austrian Institute of Technology
 # http://www.ait.ac.at, <office@ait.ac.at>
 # ------------------------------------------------------------
 
-FROM ubuntu:disco
+FROM ubuntu:eoan
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
