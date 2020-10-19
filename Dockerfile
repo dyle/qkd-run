@@ -2,11 +2,11 @@
 # This file is part of the AIT QKD R10 suite.
 #
 # The 'LICENCE.txt' file in the project root holds the software license.
-# Copyright (C) 2012-2018 AIT Austrian Institute of Technology
+# Copyright (C) 2012-2020 AIT Austrian Institute of Technology
 # http://www.ait.ac.at, <office@ait.ac.at>
 # ------------------------------------------------------------
 
-FROM ubuntu:bionic
+FROM ubuntu:focal
 
 LABEL authors="Oliver Maurhart, Stefan Petscharnig" \
       version="0.1.0"
@@ -15,7 +15,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get install -y \
         locales \
-        libboost-filesystem1.65.1 libboost-system1.65.1 libboost-program-options1.65.1 \
+        libboost-filesystem1.71.0 libboost-system1.71.0 libboost-program-options1.71.0 \
         dbus-x11 \
         qt5-default qtchooser qdbus-qt5 \
         libqt5core5a libqt5dbus5 libqt5network5 \
